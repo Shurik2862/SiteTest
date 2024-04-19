@@ -1,0 +1,101 @@
+body{
+    background-color: #be1116;
+    color: white;
+    font-size: 20px;
+    touch-action: auto;
+}
+
+
+a{
+    color: white;
+    
+}
+
+.new{
+    background-color: white;
+    border-radius: 30px;
+    color: #be1116;
+    padding: 50px 0;
+}
+
+h1{
+    color: #be1116;
+}
+form{
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    padding: 50px 0;
+    margin: auto;
+    width: 50%;
+    }
+
+table{
+    margin-top: 30px;
+    width: 100%; /* Ширина таблицы по размеру родительского контейнера */
+}
+
+.blok{
+    border: 1px solid white;
+    margin:50px 0;
+    padding: 40px 0;
+    border-radius: 25px;
+}
+
+input, textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: #be1116 1px solid;
+    transition: 350ms;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 100%;
+
+}
+
+button{
+    background-color: #be1116;
+    color: white;
+    border: transparent 1px solid;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+    transition: 350ms;
+    max-width: 100%;
+}
+
+button:hover{
+    background-color: white;
+    font-weight: 600;
+    color: #be1116;
+    transition: 350ms;
+    border: #be1116 1px solid;
+
+}
+
+input::placeholder{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+
+input:hover::placeholder{
+    color: white;
+    transition: 350ms;
+}
+
+input:hover{
+    background-color: #be1116;
+    border-bottom: white 1px solid;
+    color: white;
+    transition: 350ms;
+}
+input:focus{
+    outline: none;
+    border: #be1116 1px solid;
+}
+
+td{
+    border: 1px solid white;
+
+}
